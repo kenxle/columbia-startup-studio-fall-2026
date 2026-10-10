@@ -5,7 +5,7 @@
 
 **Purpose:** This document captures Gable's thesis, identity, and canonical language so that everything we build speaks with one voice: landing page, copy, features, pitch. It is written for agents as much as for us, and we update it as discovery continues.
 
-**Source material:** our five housing interviews (Ruby, Emma, Tina, Marcus, Jasmine; HW3 snapshots and analysis) and our Reddit research (pending, see Key Quotes).
+**Source material:** our five housing interviews (Ruby, Emma, Tina, Marcus, Jasmine; HW3 snapshots and analysis).
 
 ---
 
