@@ -4,6 +4,12 @@ How we get our first signups. Every link we post has a lowercase UTM so we can s
 
 ## This week (update before class every Friday)
 
+### Week of Nov 20 (update)
+
+- **What we did:** published our first paid ad on Reddit (see "Paid ad" below). Added campaign tracking so every new account saves which link brought it. Turned off email confirmation so signups are not capped at 2 an hour.
+- **What worked (numbers):** nothing to report yet; the ad was just published and we have no signups from it.
+- **What we're changing:** we read results from Supabase by campaign tag (`aditya_adtest_nov2026`), not only Google Analytics, because we do not have Analytics access yet.
+
 ### Week of Nov 13 to Nov 19
 
 - **What we did:** Michelle engaged on Reddit (liked some posts). We finished the automatic welcome email, so everyone who joins the waitlist now gets an email right away. We wrote the experiment card for our first paid ad (below).
