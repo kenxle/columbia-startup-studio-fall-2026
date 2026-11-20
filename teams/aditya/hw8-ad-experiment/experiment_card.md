@@ -39,7 +39,7 @@ At least 10% of clicks from members of the Columbia, NYC sublet and NYC college 
 - **What counts as a signup:** someone creates a Gable account. On gable.fit, a visitor who is not signed in sees "Sign up to see your matches" after they search, and creating an account fires the Google Analytics event `account_created` (marked as a key event). Our own test accounts are excluded. The homepage waitlist email box still works; those emails are reported separately and do not count toward the bar.
 - **Where we read signups from:** Google Analytics, event `account_created` for visits with `utm_source = reddit`, checked against new users in Supabase Authentication during the 7 days.
 - **Tracking check:** we clicked through our own ad link, searched, created a test account, and saw the visit and the `account_created` event arrive in Google Analytics Realtime. Yes / No (screenshot in `analytics/`)
-- **Expected clicks** (the platform's estimate): ___ about 85. Reddit's builder estimated up to 590 visits a week at $100 a day, so $100 in total buys about one seventh of that.
+- **Expected clicks** (the platform's estimate): ___ about 60. Reddit's builder estimated 6 to 11 clicks a day at our $14.28 daily budget, so about 42 to 77 over the 7 days.
 
 **Ad link:**
 `https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
@@ -57,12 +57,12 @@ Note: Gable has few real listings today, so the ad offers a search and early acc
 Set before launch.
 
 - We read the result once, after the end date.
-- **PASS** if signups are **6 or more**.
-- **FAIL** if signups are **4 or fewer**.
-- **UNCLEAR** if **5**.
-- **Our prediction:** 3 signups (about 4%).
+- **PASS** if signups are **5 or more**.
+- **FAIL** if signups are **2 or fewer**.
+- **UNCLEAR** if **3 or 4**.
+- **Our prediction:** 3 signups (about 5%).
 
-How we picked it: with about 85 clicks, a page at the 3% floor would reach 6 or more signups only about 1 time in 23, and a page at the 10% target would land at 4 or fewer about 1 time in 16. This is between the template table's rows, so we worked it out the same way (the chance of a wrong call is about 1 in 20 either way).
+How we picked it: with about 60 clicks, a page at the 3% floor would reach 5 or more signups only about 1 time in 30, and a page at the 10% target would land at 2 or fewer about 1 time in 19. This is smaller than the template table's rows, so we worked it out the same way (the chance of a wrong call is about 1 in 20 either way).
 
 ## 7. What we'll do
 
