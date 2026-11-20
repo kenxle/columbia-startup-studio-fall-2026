@@ -44,9 +44,9 @@ At least 10% of clicks from members of NYC student subreddits who see "real subl
 **Ad link:**
 `https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
 
-**The ad (written in a student's own voice; the homepage says "real sublets near Columbia" and "checked"):**
-- Headline: "Looking for a sublet in NYC? Or subletting your place?"
-- Body: "We're three Columbia students who got tired of messaging twenty people to find out which sublet was real. So we built Gable: tell it what you need and see real places from other students, checked before you pay. Away this summer? List your own place and cover your rent. Free to join."
+**The ad (written in a student's own voice, as a Columbia community; the homepage says "real sublets near Columbia"):**
+- Headline: "Find a sublet through the Columbia community"
+- Body: "Sublet hunting is stressful when you don't know who's on the other end. Gable is a sublet network for Columbia students: places posted by other students, so you're dealing with people from your own community. Tell us what you need and we'll show what fits. And if you're subletting your own place, you can list it here and cover your rent while you're away. It's free to join."
 - Button: Sign Up
 - Image: one screenshot of Gable's chat search with a result card showing what we checked.
 
