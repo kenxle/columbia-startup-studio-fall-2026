@@ -26,7 +26,7 @@ This is the live site people see. We test changes on a separate staging branch f
 ## Docs
 
 - [mvp_doc.md](mvp_doc.md): core flow, what's in scope, cut, faked, stack, and roles
-- [demand_strategy.md](demand_strategy.md): traffic owners, communities, the first 3 Reddit posts (posted Oct 23), the blog post, and the welcome email
+- [demand_strategy.md](../demand_strategy.md): traffic owners, communities, the first 3 Reddit posts (posted Oct 23), the blog post, and the welcome email
 
 ## Analytics
 
