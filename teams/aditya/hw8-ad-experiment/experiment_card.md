@@ -1,9 +1,11 @@
-# Experiment Card: Gable (Meta ad test)
+# Experiment Card: Gable (Reddit ad test)
 
 Team Aditya: Michelle Mai, Lookman Mustapha, Sam Hearst
 Card owner and ad account owner: Michelle Mai
 
 Sections 1 to 8 are committed before launch and don't change after. Section 9 is filled in for homework 9.
+
+Platform note: we planned a Meta test first. Meta treats rental search ads as Housing ads and blocks targeting by age and interests, so we could not reach our audience of students and recent grads aged 18 to 30 on Meta. We switched to Reddit before spending anything.
 
 ---
 
@@ -13,7 +15,7 @@ Should we lead with "real sublets near Columbia, checked before you pay" as Gabl
 
 ## 2. Hypothesis
 
-At least 10% of visitors from Columbia-area students on Meta who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
+At least 10% of clicks from members of NYC student subreddits who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
 
 ## 3. The one variable
 
@@ -22,49 +24,49 @@ At least 10% of visitors from Columbia-area students on Meta who see "real suble
 
 ## 4. Audience
 
-- **Platform and targeting:** Meta (Facebook and Instagram). New York City plus 15 miles. Ages 18 to 24. Interests: Columbia University, Barnard College, NYU, The New School, Fordham, subletting, StreetEasy. English.
-- **Why this audience:** these are the students we interviewed, tested with, and have been posting to on Reddit. Starting narrow on a known audience lets the ad algorithm learn on $100.
+- **Who we want to reach:** students and recent grads, about 18 to 30, looking for a sublet in NYC.
+- **Platform and targeting:** Reddit, community targeting: r/columbia, r/barnard, r/nyu, r/nycollegestudents and r/NYCapartments (the same communities we have been posting in). Reddit does not offer age targeting, so the communities are how we reach that age range. United States, feed and conversation placements.
+- **Why this audience:** these are the places where students looking for an NYC sublet already ask for help, and we have posted there for several weeks, so we know what these communities respond to.
 
 ## 5. Setup
 
-- **Platform:** Meta
-- **The question this platform can answer:** do visitors sign up when they see this promise?
-- **Campaign objective:** Traffic (landing page views)
+- **Platform:** Reddit
+- **The question this platform can answer:** does this community respond to the promise? (Reddit is not the place to read a precise signup rate; the bar below is set for a small, directional test.)
+- **Campaign objective:** Traffic (clicks to the website)
 - **Budget:** $100 as a lifetime (total) budget
-- **Start date:** Nov 20, 2026 **End date:** Nov 27, 2026 (7 days)
+- **Start date:** Nov 21, 2026 **End date:** Nov 28, 2026 (7 days)
 - **What counts as a signup:** someone creates a Gable account. On gable.fit, a visitor who is not signed in sees "Sign up to see your matches" after they search, and creating an account fires the Google Analytics event `account_created` (marked as a key event). Our own test accounts are excluded. The homepage waitlist email box still works; those emails are reported separately and do not count toward the bar.
-- **Where we read signups from:** Google Analytics, event `account_created` for visits with `utm_source = meta`, checked against new users in Supabase Authentication during the 7 days.
+- **Where we read signups from:** Google Analytics, event `account_created` for visits with `utm_source = reddit`, checked against new users in Supabase Authentication during the 7 days.
 - **Tracking check:** we clicked through our own ad link, searched, created a test account, and saw the visit and the `account_created` event arrive in Google Analytics Realtime. Yes / No (screenshot in `analytics/`)
-- **Expected clicks** (the platform's estimate): ___ (we assume about 166 at typical Meta prices; update from the ads dashboard)
+- **Expected clicks** (the platform's estimate): ___ (we assume about 100 for $100; update from Reddit's estimate in the ad builder before launch)
 
 **Ad link:**
-`https://www.gable.fit/?utm_source=meta&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
+`https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
 
 **The ad (must match the homepage):**
-- Primary text: "Looking for a sublet near Columbia? Tell Gable what you need and get real places, checked before you pay. Built by Columbia students. Create a free account to see them."
-- Headline: "Real sublets near Columbia"
-- Description: "Checked before you pay"
+- Headline: "Real sublets near Columbia, checked before you pay"
+- Body: "Tell Gable what you need and get real NYC sublets from students, not scams. Built by Columbia students. Create a free account to see them."
 - Button: Sign Up
 - Image: one screenshot of Gable's chat search with a result card showing what we checked.
 
-Note: Gable has few real listings today, so the ad offers early access, not listings you can book now.
+Note: Gable has few real listings today, so the ad offers a search and early access, not a large catalog.
 
 ## 6. The bar
 
 Set before launch.
 
 - We read the result once, after the end date.
-- **PASS** if signups are **10 or more**.
-- **FAIL** if signups are **9 or fewer**.
-- **UNCLEAR** if between (with about 166 clicks there is no unclear zone; if Meta delivers about 140 clicks, use PASS at 9 or more, FAIL at 7 or fewer, UNCLEAR at 8).
-- **Our prediction:** 7 signups (about 4%).
+- **PASS** if signups are **7 or more**.
+- **FAIL** if signups are **4 or fewer**.
+- **UNCLEAR** if **5 or 6**.
+- **Our prediction:** 4 signups (about 4%).
 
-Based on the template table: floor 3% vs. good 10%, 166 clicks.
+Based on the template table: floor 3% vs. good 10%, 100 clicks. If Reddit's estimate is about 140 clicks, use PASS at 9 or more, FAIL at 7 or fewer, UNCLEAR at 8; if about 166, PASS at 10 or more and FAIL at 9 or fewer.
 
 ## 7. What we'll do
 
-- **If PASS:** make "checked before you pay" the headline everywhere (homepage, Reddit posts) and run the same ad again with a second audience to replicate before spending more.
-- **If FAIL:** a low click rate means the hook or the audience is off, so test a different promise next, such as skipping the back-and-forth of messaging many people. Clicks but no signups means the homepage is the problem, so fix the page and re-run.
+- **If PASS:** make "checked before you pay" the headline everywhere (homepage, Reddit posts) and run the same ad again in a second set of subreddits to replicate before spending more.
+- **If FAIL:** a low click rate means the hook or the community is off, so test a different promise next, such as skipping the back-and-forth of messaging many people. Clicks but no signups means the homepage or sign-up step is the problem, so fix it and re-run.
 - **If UNCLEAR:** don't spend more. Decide from interviews and usability tests.
 
 ## 8. Stop rules

@@ -11,12 +11,14 @@ How we get our first signups. Every link we post has a lowercase UTM so we can s
 - **What didn't:** we have no signups yet, including from the three Reddit posts from Oct 23. Also, the old landing pages (`/verified`, `/summer`, `/together`) now redirect to the homepage, so the links in the posts below land on the homepage, not the page each post was written for.
 - **What we're changing:** we're switching from data scraping to outreach, asking students directly to post their sublet on Gable and to join the waitlist. We're sending paid traffic to the homepage, which has one clear email signup.
 
-## Paid ad: Meta test (Nov 2026)
+## Paid ad: Reddit test (Nov 2026)
 
 - **Owner:** Michelle Mai, who owns the ad account and the card.
 - **Card:** [hw8-ad-experiment/experiment_card.md](hw8-ad-experiment/experiment_card.md)
-- **Budget and length:** $100 lifetime, 7 days, start Nov 20, end Nov 27.
-- **Link:** `https://www.gable.fit/?utm_source=meta&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
+- **Why Reddit:** Meta treats rental search ads as Housing ads and blocks age and interest targeting, so we moved the test to the student subreddits we already post in.
+- **Audience:** students and recent grads, about 18 to 30, through r/columbia, r/barnard, r/nyu, r/nycollegestudents and r/NYCapartments.
+- **Budget and length:** $100 lifetime, 7 days, start Nov 21, end Nov 28.
+- **Link:** `https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
 - **Result:** filled in for homework 9.
 
 ## Outreach (new)
