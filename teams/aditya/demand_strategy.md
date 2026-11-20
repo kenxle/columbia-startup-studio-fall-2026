@@ -1,6 +1,30 @@
 # Gable: Demand Strategy
 
-How we get our first signups. No paid ads yet. Every link we post goes to a Gable landing page with a lowercase UTM so we can see what works in Google Analytics.
+How we get our first signups. Every link we post has a lowercase UTM so we can see what works in Google Analytics. This is a living document: we update it before class every Friday.
+
+## This week (update before class every Friday)
+
+### Week of Nov 13 to Nov 19
+
+- **What we did:** Michelle engaged on Reddit (liked some posts). We finished the automatic welcome email, so everyone who joins the waitlist now gets an email right away. We wrote the experiment card for our first paid ad (below).
+- **What worked (numbers):** nothing measurable yet. We have 0 signups from our posts. [Add the Google Analytics visits by `utm_source` if any.]
+- **What didn't:** we have no signups yet, including from the three Reddit posts from Oct 23. Also, the old landing pages (`/verified`, `/summer`, `/together`) now redirect to the homepage, so the links in the posts below land on the homepage, not the page each post was written for.
+- **What we're changing:** we're switching from data scraping to outreach, asking students directly to post their sublet on Gable and to join the waitlist. We're sending paid traffic to the homepage, which has one clear email signup.
+
+## Paid ad: Meta test (Nov 2026)
+
+- **Owner:** [name one teammate], who owns the ad account and the card.
+- **Card:** [hw8-ad-experiment/experiment_card.md](hw8-ad-experiment/experiment_card.md)
+- **Budget and length:** $100 lifetime, 7 days, start ___ end ___.
+- **Link:** `https://www.gable.fit/?utm_source=meta&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
+- **Result:** filled in for homework 9.
+
+## Outreach (new)
+
+- **Who we ask:** Columbia and Barnard students who are away this semester or this summer and might sublet, and students looking for a sublet.
+- **What we ask:** post your place on Gable (List your room), or join the waitlist.
+- **Owner:** [fill in]
+- **How we track it:** a UTM on every link we send, for example `utm_source=outreach&utm_medium=dm&utm_campaign=list_your_room`.
 
 ## Traffic owners
 
