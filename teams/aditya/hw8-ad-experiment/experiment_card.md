@@ -20,7 +20,7 @@ At least 10% of clicks from members of NYC student subreddits who see "real subl
 ## 3. The one variable
 
 - **What we're testing:** the promise: "real sublets, checked before you pay" (the trust angle from our brand position and from what our interviewees told us about fake listings and Zelle).
-- **Also in the ad, not tested separately:** one sentence telling students they can list their own place. The headline and the promise being tested stay "real sublets, checked before you pay".
+- **Also in the ad, not tested separately:** one sentence telling students they can list their own place. The promise being tested, "real sublets, checked before you pay", stays in the body of the ad.
 - **Everything we hold fixed:** one landing page (the Gable homepage, https://www.gable.fit), one audience, one ad, $100 lifetime budget, 7 days, and the same flow: type a search, then sign up to see matches.
 
 ## 4. Audience
@@ -44,9 +44,9 @@ At least 10% of clicks from members of NYC student subreddits who see "real subl
 **Ad link:**
 `https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
 
-**The ad (must match the homepage):**
-- Headline: "Real sublets near Columbia, checked before you pay"
-- Body: "Tell Gable what you need and get real NYC sublets from students, not scams. Away this summer? List your own place and cover your rent. Built by Columbia students. Create a free account to start."
+**The ad (written in a student's own voice; the homepage says "real sublets near Columbia" and "checked"):**
+- Headline: "Looking for a sublet in NYC? Or subletting your place?"
+- Body: "We're three Columbia students who got tired of messaging twenty people to find out which sublet was real. So we built Gable: tell it what you need and see real places from other students, checked before you pay. Away this summer? List your own place and cover your rent. Free to join."
 - Button: Sign Up
 - Image: one screenshot of Gable's chat search with a result card showing what we checked.
 
