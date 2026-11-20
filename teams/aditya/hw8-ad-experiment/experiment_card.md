@@ -20,6 +20,7 @@ At least 10% of clicks from members of NYC student subreddits who see "real subl
 ## 3. The one variable
 
 - **What we're testing:** the promise: "real sublets, checked before you pay" (the trust angle from our brand position and from what our interviewees told us about fake listings and Zelle).
+- **Also in the ad, not tested separately:** one sentence telling students they can list their own place. The headline and the promise being tested stay "real sublets, checked before you pay".
 - **Everything we hold fixed:** one landing page (the Gable homepage, https://www.gable.fit), one audience, one ad, $100 lifetime budget, 7 days, and the same flow: type a search, then sign up to see matches.
 
 ## 4. Audience
@@ -45,11 +46,11 @@ At least 10% of clicks from members of NYC student subreddits who see "real subl
 
 **The ad (must match the homepage):**
 - Headline: "Real sublets near Columbia, checked before you pay"
-- Body: "Tell Gable what you need and get real NYC sublets from students, not scams. Built by Columbia students. Create a free account to see them."
+- Body: "Tell Gable what you need and get real NYC sublets from students, not scams. Away this summer? List your own place and cover your rent. Built by Columbia students. Create a free account to start."
 - Button: Sign Up
 - Image: one screenshot of Gable's chat search with a result card showing what we checked.
 
-Note: Gable has few real listings today, so the ad offers a search and early access, not a large catalog.
+Note: Gable has few real listings today, so the ad offers a search and early access, not a large catalog. Listing your own place (List your room) is real and works, but a person has to create an account first, so it counts as a signup the same way.
 
 ## 6. The bar
 
