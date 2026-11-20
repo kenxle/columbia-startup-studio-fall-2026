@@ -13,9 +13,9 @@ How we get our first signups. Every link we post has a lowercase UTM so we can s
 
 ## Paid ad: Meta test (Nov 2026)
 
-- **Owner:** [name one teammate], who owns the ad account and the card.
+- **Owner:** Michelle Mai, who owns the ad account and the card.
 - **Card:** [hw8-ad-experiment/experiment_card.md](hw8-ad-experiment/experiment_card.md)
-- **Budget and length:** $100 lifetime, 7 days, start ___ end ___.
+- **Budget and length:** $100 lifetime, 7 days, start Nov 20, end Nov 27.
 - **Link:** `https://www.gable.fit/?utm_source=meta&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
 - **Result:** filled in for homework 9.
 

@@ -1,7 +1,7 @@
 # Experiment Card: Gable (Meta ad test)
 
 Team Aditya: Michelle Mai, Lookman Mustapha, Sam Hearst
-Card owner and ad account owner: [name one teammate]
+Card owner and ad account owner: Michelle Mai
 
 Sections 1 to 8 are committed before launch and don't change after. Section 9 is filled in for homework 9.
 
@@ -31,7 +31,7 @@ At least 10% of visitors from Columbia-area students on Meta who see "real suble
 - **The question this platform can answer:** do visitors sign up when they see this promise?
 - **Campaign objective:** Traffic (landing page views)
 - **Budget:** $100 as a lifetime (total) budget
-- **Start date:** ___ **End date:** ___ (7 days)
+- **Start date:** Nov 20, 2026 **End date:** Nov 27, 2026 (7 days)
 - **What counts as a signup:** a new row in the Supabase `signups` table with `page = 'home'` and `utm_campaign = aditya_adtest_nov2026`, excluding our own test rows. It also fires the Google Analytics `sign_up` key event on `/thanks`.
 - **Where we read signups from:** Supabase `signups`, checked against Google Analytics by UTM.
 - **Tracking check:** we clicked through our own ad link and saw the visit and the signup arrive in Google Analytics Realtime. Yes / No (screenshot in `analytics/`)
