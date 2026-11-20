@@ -15,19 +15,19 @@ Should we lead with "real sublets near Columbia, checked before you pay" as Gabl
 
 ## 2. Hypothesis
 
-At least 10% of clicks from members of the Columbia, NYC sublet and NYC college student subreddits who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
+At least 10% of clicks from the people Reddit shows the ad to (it uses r/columbia, r/nyc_sublets and r/nycollegestudents as audience suggestions) who see "Find a sublet through the Columbia community" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
 
 ## 3. The one variable
 
-- **What we're testing:** the promise: "real sublets, checked before you pay" (the trust angle from our brand position and from what our interviewees told us about fake listings and Zelle).
-- **Also in the ad, not tested separately:** one sentence telling students they can list their own place. The promise being tested, "real sublets, checked before you pay", stays in the body of the ad.
-- **Everything we hold fixed:** one landing page (the Gable homepage, https://www.gable.fit), one audience, one ad, $100 lifetime budget, 7 days, and the same flow: type a search, then sign up to see matches.
+- **What we're testing:** the message: Gable as a sublet network for the Columbia community, with places posted by other students (the trust angle from our brand position and from what our interviewees told us about not knowing who is on the other end).
+- **What the ad shows:** one headline, one image and a Sign Up button. Reddit Max has no body text field, so the ad does not use the longer body text we drafted.
+- **Everything we hold fixed:** one landing page (the Gable homepage, https://www.gable.fit), one headline (entered three times so Reddit cannot rotate), one image, one audience setting, $100 total budget, 7 days, and the same flow: type a search, then sign up to see matches.
 
 ## 4. Audience
 
 - **Who we want to reach:** students and recent grads, about 18 to 30, looking for a sublet in NYC.
-- **Platform and targeting:** Reddit, community targeting: r/columbia, r/nyc_sublets and r/nycollegestudents. r/columbia matches the "Columbia community" wording of the ad; r/nyc_sublets is a community made for sublets; r/nycollegestudents adds more students. The last two also have non-Columbia readers, which is fine because the sign-up page is open to them. Reddit does not offer age targeting, so the communities are how we reach that age range. United States, feed and conversation placements.
-- **Why this audience:** the ad says Gable is a network for Columbia students, so it runs where Columbia students talk, plus the two communities where people already look for NYC sublets. We left out r/NYCapartments because most of its readers are not students.
+- **Platform and targeting:** Reddit Max campaign with audience suggestions: r/columbia, r/nyc_sublets and r/nycollegestudents. Reddit says suggestions help find the best audience but do not limit who sees the ad, so some people outside these communities may see it. Location: United States. The campaign is declared as a housing special ad category (Gable lists sublets), which means no age, gender or postal code targeting. We have no interest groups or keywords.
+- **Why this audience:** the ad speaks to the Columbia community, so we point Reddit at Columbia students and at the two communities where people already look for NYC sublets. We left out r/NYCapartments because most of its readers are not students. Because suggestions do not limit delivery, we read the result as "people Reddit finds similar to these communities", not "members of these subreddits".
 
 ## 5. Setup
 
@@ -44,13 +44,12 @@ At least 10% of clicks from members of the Columbia, NYC sublet and NYC college 
 **Ad link:**
 `https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
 
-**The ad (written in a student's own voice, as a Columbia community; the homepage says "real sublets near Columbia"):**
-- Headline: "Find a sublet through the Columbia community"
-- Body: "Sublet hunting is stressful when you don't know who's on the other end. Gable is a sublet network for Columbia students: places posted by other students, so you're dealing with people from your own community. Tell us what you need and we'll show what fits. And if you're subletting your own place, you can list it here and cover your rent while you're away. It's free to join."
+**The ad (the homepage says "real sublets near Columbia"):**
+- Headline: "Find a sublet through the Columbia community" (entered three times, the same each time)
 - Button: Sign Up
 - Image: `ad_creative_1200x628.png`, a real screenshot of Gable (the search and its reply next to a real student listing), cropped to 1200 by 628. No stock photos.
 
-Note: Gable has few real listings today, so the ad offers a search and early access, not a large catalog. Listing your own place (List your room) is real and works, but a person has to create an account first, so it counts as a signup the same way.
+Note: Gable has few real listings today, so the ad offers a search and early access, not a large catalog. The longer body text we drafted (it also mentions listing your own place) is saved here for the next test: "Sublet hunting is stressful when you don't know who's on the other end. Gable is a sublet network for Columbia students: places posted by other students, so you're dealing with people from your own community. Tell us what you need and we'll show what fits. And if you're subletting your own place, you can list it here and cover your rent while you're away. It's free to join."
 
 ## 6. The bar
 
