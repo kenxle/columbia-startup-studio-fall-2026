@@ -17,8 +17,8 @@ How we get our first signups. Every link we post has a lowercase UTM so we can s
 - **Card:** [hw8-ad-experiment/experiment_card.md](hw8-ad-experiment/experiment_card.md)
 - **Why Reddit:** Meta treats rental search ads as Housing ads and blocks age and interest targeting, so we moved the test to the student subreddits we already post in.
 - **Message:** a Columbia-community voice: "Find a sublet through the Columbia community", places posted by other students, tell us what you need and we show what fits, and you can list your own place.
-- **Audience:** students and recent grads, about 18 to 30, through r/columbia, r/barnard and r/nycollegestudents (not r/NYCapartments: mostly non-students).
-- **Budget and length:** $100 lifetime, 7 days, start Nov 21, end Nov 28.
+- **Audience:** students and recent grads, about 18 to 30, through r/columbia, r/nyc_sublets and r/nycollegestudents (not r/NYCapartments: mostly non-students).
+- **Budget and length:** $100 lifetime, 7 days, start Nov 20, end Nov 27.
 - **Link:** `https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
 - **Result:** filled in for homework 9.
 

@@ -15,7 +15,7 @@ Should we lead with "real sublets near Columbia, checked before you pay" as Gabl
 
 ## 2. Hypothesis
 
-At least 10% of clicks from members of the Columbia, Barnard and NYC college student subreddits who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
+At least 10% of clicks from members of the Columbia, NYC sublet and NYC college student subreddits who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
 
 ## 3. The one variable
 
@@ -26,20 +26,20 @@ At least 10% of clicks from members of the Columbia, Barnard and NYC college stu
 ## 4. Audience
 
 - **Who we want to reach:** students and recent grads, about 18 to 30, looking for a sublet in NYC.
-- **Platform and targeting:** Reddit, community targeting: r/columbia, r/barnard and r/nycollegestudents. The first two match the "Columbia community" wording of the ad; r/nycollegestudents adds more reach among the students we want (it also has non-Columbia readers, which is fine because the sign-up page is open to them). Reddit does not offer age targeting, so the communities are how we reach that age range. United States, feed and conversation placements.
-- **Why this audience:** the ad says Gable is a network for Columbia students, so it runs where Columbia and Barnard students already talk, plus the NYC college students subreddit where students ask about sublets. We left out r/NYCapartments because most of its readers are not students. The audience is still fairly small, so we expect fewer clicks and have set the bar for that.
+- **Platform and targeting:** Reddit, community targeting: r/columbia, r/nyc_sublets and r/nycollegestudents. r/columbia matches the "Columbia community" wording of the ad; r/nyc_sublets is a community made for sublets; r/nycollegestudents adds more students. The last two also have non-Columbia readers, which is fine because the sign-up page is open to them. Reddit does not offer age targeting, so the communities are how we reach that age range. United States, feed and conversation placements.
+- **Why this audience:** the ad says Gable is a network for Columbia students, so it runs where Columbia students talk, plus the two communities where people already look for NYC sublets. We left out r/NYCapartments because most of its readers are not students.
 
 ## 5. Setup
 
 - **Platform:** Reddit
 - **The question this platform can answer:** does this community respond to the promise? (Reddit is not the place to read a precise signup rate; the bar below is set for a small, directional test.)
-- **Campaign objective:** Traffic (clicks to the website)
-- **Budget:** $100 as a lifetime (total) budget
-- **Start date:** Nov 21, 2026 **End date:** Nov 28, 2026 (7 days)
+- **Campaign objective:** Traffic (clicks to the website). Reddit may label this as the Sales objective with a Clicks goal; we do not use the Reddit pixel and measure in Google Analytics instead.
+- **Budget:** $100 in total. Reddit sets a daily budget, so we use $14.28 a day for 7 days (about $100).
+- **Start date:** Nov 20, 2026 **End date:** Nov 27, 2026 at 12:30 PM ET (7 days)
 - **What counts as a signup:** someone creates a Gable account. On gable.fit, a visitor who is not signed in sees "Sign up to see your matches" after they search, and creating an account fires the Google Analytics event `account_created` (marked as a key event). Our own test accounts are excluded. The homepage waitlist email box still works; those emails are reported separately and do not count toward the bar.
 - **Where we read signups from:** Google Analytics, event `account_created` for visits with `utm_source = reddit`, checked against new users in Supabase Authentication during the 7 days.
 - **Tracking check:** we clicked through our own ad link, searched, created a test account, and saw the visit and the `account_created` event arrive in Google Analytics Realtime. Yes / No (screenshot in `analytics/`)
-- **Expected clicks** (the platform's estimate): ___ (we assume about 100 for $100 across three subreddits; this is a guess, because Reddit does not publish typical click prices. We will update it from Reddit's estimate in the ad builder before launch)
+- **Expected clicks** (the platform's estimate): ___ about 85. Reddit's builder estimated up to 590 visits a week at $100 a day, so $100 in total buys about one seventh of that.
 
 **Ad link:**
 `https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
@@ -57,12 +57,12 @@ Note: Gable has few real listings today, so the ad offers a search and early acc
 Set before launch.
 
 - We read the result once, after the end date.
-- **PASS** if signups are **7 or more**.
+- **PASS** if signups are **6 or more**.
 - **FAIL** if signups are **4 or fewer**.
-- **UNCLEAR** if **5 or 6**.
-- **Our prediction:** 4 signups (about 4%).
+- **UNCLEAR** if **5**.
+- **Our prediction:** 3 signups (about 4%).
 
-Based on the template table: floor 3% vs. good 10%, 100 clicks. We will fix the final numbers from Reddit's click estimate before launch and commit them first. If the estimate is about 140 clicks, use PASS at 9 or more, FAIL at 7 or fewer, UNCLEAR at 8; if it is about 60, use PASS at 5 or more, FAIL at 2 or fewer, UNCLEAR at 3 to 4.
+How we picked it: with about 85 clicks, a page at the 3% floor would reach 6 or more signups only about 1 time in 23, and a page at the 10% target would land at 4 or fewer about 1 time in 16. This is between the template table's rows, so we worked it out the same way (the chance of a wrong call is about 1 in 20 either way).
 
 ## 7. What we'll do
 
