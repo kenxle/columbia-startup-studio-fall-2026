@@ -15,7 +15,7 @@ Should we lead with "real sublets near Columbia, checked before you pay" as Gabl
 
 ## 2. Hypothesis
 
-At least 10% of clicks from members of NYC student subreddits who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
+At least 10% of clicks from members of the Columbia and Barnard subreddits who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
 
 ## 3. The one variable
 
@@ -26,8 +26,8 @@ At least 10% of clicks from members of NYC student subreddits who see "real subl
 ## 4. Audience
 
 - **Who we want to reach:** students and recent grads, about 18 to 30, looking for a sublet in NYC.
-- **Platform and targeting:** Reddit, community targeting: r/columbia, r/barnard, r/nyu, r/nycollegestudents and r/NYCapartments (the same communities we have been posting in). Reddit does not offer age targeting, so the communities are how we reach that age range. United States, feed and conversation placements.
-- **Why this audience:** these are the places where students looking for an NYC sublet already ask for help, and we have posted there for several weeks, so we know what these communities respond to.
+- **Platform and targeting:** Reddit, community targeting: r/columbia and r/barnard only, to match the "Columbia community" wording of the ad. Reddit does not offer age targeting, so the communities are how we reach that age range. United States, feed and conversation placements.
+- **Why this audience:** the ad says Gable is a network for Columbia students, so it only runs where Columbia and Barnard students already talk. It is a small audience, so we expect fewer clicks and have set the bar for that.
 
 ## 5. Setup
 
@@ -39,7 +39,7 @@ At least 10% of clicks from members of NYC student subreddits who see "real subl
 - **What counts as a signup:** someone creates a Gable account. On gable.fit, a visitor who is not signed in sees "Sign up to see your matches" after they search, and creating an account fires the Google Analytics event `account_created` (marked as a key event). Our own test accounts are excluded. The homepage waitlist email box still works; those emails are reported separately and do not count toward the bar.
 - **Where we read signups from:** Google Analytics, event `account_created` for visits with `utm_source = reddit`, checked against new users in Supabase Authentication during the 7 days.
 - **Tracking check:** we clicked through our own ad link, searched, created a test account, and saw the visit and the `account_created` event arrive in Google Analytics Realtime. Yes / No (screenshot in `analytics/`)
-- **Expected clicks** (the platform's estimate): ___ (we assume about 100 for $100; update from Reddit's estimate in the ad builder before launch)
+- **Expected clicks** (the platform's estimate): ___ (we assume about 60, because two small subreddits may not take the whole $100; update from Reddit's estimate in the ad builder before launch)
 
 **Ad link:**
 `https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
@@ -57,12 +57,12 @@ Note: Gable has few real listings today, so the ad offers a search and early acc
 Set before launch.
 
 - We read the result once, after the end date.
-- **PASS** if signups are **7 or more**.
-- **FAIL** if signups are **4 or fewer**.
-- **UNCLEAR** if **5 or 6**.
-- **Our prediction:** 4 signups (about 4%).
+- **PASS** if signups are **5 or more**.
+- **FAIL** if signups are **2 or fewer**.
+- **UNCLEAR** if **3 or 4**.
+- **Our prediction:** 3 signups (about 5%).
 
-Based on the template table: floor 3% vs. good 10%, 100 clicks. If Reddit's estimate is about 140 clicks, use PASS at 9 or more, FAIL at 7 or fewer, UNCLEAR at 8; if about 166, PASS at 10 or more and FAIL at 9 or fewer.
+How we picked it: with about 60 clicks, a page at the 3% floor would reach 5 or more signups only about 1 time in 30, and a page at the 10% target would land at 2 or fewer about 1 time in 20. This is smaller than the template table's 100-click rows, so we worked it out the same way. If Reddit's estimate is about 100 clicks, use the template row instead: PASS at 7 or more, FAIL at 4 or fewer, UNCLEAR at 5 to 6. We will fix the final numbers from Reddit's estimate before launch and commit them first.
 
 ## 7. What we'll do
 
