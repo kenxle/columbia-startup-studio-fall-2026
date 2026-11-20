@@ -48,7 +48,7 @@ At least 10% of clicks from members of the Columbia, Barnard and NYC college stu
 - Headline: "Find a sublet through the Columbia community"
 - Body: "Sublet hunting is stressful when you don't know who's on the other end. Gable is a sublet network for Columbia students: places posted by other students, so you're dealing with people from your own community. Tell us what you need and we'll show what fits. And if you're subletting your own place, you can list it here and cover your rent while you're away. It's free to join."
 - Button: Sign Up
-- Image: one screenshot of Gable's chat search with a result card showing what we checked.
+- Image: `ad_creative_1200x628.png`, a real screenshot of Gable (the search and its reply next to a real student listing), cropped to 1200 by 628. No stock photos.
 
 Note: Gable has few real listings today, so the ad offers a search and early access, not a large catalog. Listing your own place (List your room) is real and works, but a person has to create an account first, so it counts as a signup the same way.
 
