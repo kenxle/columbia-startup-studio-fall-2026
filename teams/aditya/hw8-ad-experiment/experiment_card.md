@@ -15,7 +15,7 @@ Should we lead with "real sublets near Columbia, checked before you pay" as Gabl
 
 ## 2. Hypothesis
 
-At least 10% of clicks from members of the Columbia and Barnard subreddits who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
+At least 10% of clicks from members of the Columbia, Barnard and NYC college student subreddits who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
 
 ## 3. The one variable
 
@@ -26,8 +26,8 @@ At least 10% of clicks from members of the Columbia and Barnard subreddits who s
 ## 4. Audience
 
 - **Who we want to reach:** students and recent grads, about 18 to 30, looking for a sublet in NYC.
-- **Platform and targeting:** Reddit, community targeting: r/columbia and r/barnard only, to match the "Columbia community" wording of the ad. Reddit does not offer age targeting, so the communities are how we reach that age range. United States, feed and conversation placements.
-- **Why this audience:** the ad says Gable is a network for Columbia students, so it only runs where Columbia and Barnard students already talk. It is a small audience, so we expect fewer clicks and have set the bar for that.
+- **Platform and targeting:** Reddit, community targeting: r/columbia, r/barnard and r/nycollegestudents. The first two match the "Columbia community" wording of the ad; r/nycollegestudents adds more reach among the students we want (it also has non-Columbia readers, which is fine because the sign-up page is open to them). Reddit does not offer age targeting, so the communities are how we reach that age range. United States, feed and conversation placements.
+- **Why this audience:** the ad says Gable is a network for Columbia students, so it runs where Columbia and Barnard students already talk, plus the NYC college students subreddit where students ask about sublets. We left out r/NYCapartments because most of its readers are not students. The audience is still fairly small, so we expect fewer clicks and have set the bar for that.
 
 ## 5. Setup
 
