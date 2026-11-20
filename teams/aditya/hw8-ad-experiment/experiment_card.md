@@ -13,12 +13,12 @@ Should we lead with "real sublets near Columbia, checked before you pay" as Gabl
 
 ## 2. Hypothesis
 
-At least 10% of visitors from Columbia-area students on Meta who see "real sublets near Columbia, checked before you pay" will leave their email for early access on the Gable homepage. Under 3% means the promise or the page isn't working.
+At least 10% of visitors from Columbia-area students on Meta who see "real sublets near Columbia, checked before you pay" will create a Gable account after searching for a sublet. Under 3% means the promise or the page isn't working.
 
 ## 3. The one variable
 
 - **What we're testing:** the promise: "real sublets, checked before you pay" (the trust angle from our brand position and from what our interviewees told us about fake listings and Zelle).
-- **Everything we hold fixed:** one landing page (the Gable homepage, https://www.gable.fit), one audience, one ad, $100 lifetime budget, 7 days, the same email form at the bottom of the page.
+- **Everything we hold fixed:** one landing page (the Gable homepage, https://www.gable.fit), one audience, one ad, $100 lifetime budget, 7 days, and the same flow: type a search, then sign up to see matches.
 
 ## 4. Audience
 
@@ -32,16 +32,16 @@ At least 10% of visitors from Columbia-area students on Meta who see "real suble
 - **Campaign objective:** Traffic (landing page views)
 - **Budget:** $100 as a lifetime (total) budget
 - **Start date:** Nov 20, 2026 **End date:** Nov 27, 2026 (7 days)
-- **What counts as a signup:** a new row in the Supabase `signups` table with `page = 'home'` and `utm_campaign = aditya_adtest_nov2026`, excluding our own test rows. It also fires the Google Analytics `sign_up` key event on `/thanks`.
-- **Where we read signups from:** Supabase `signups`, checked against Google Analytics by UTM.
-- **Tracking check:** we clicked through our own ad link and saw the visit and the signup arrive in Google Analytics Realtime. Yes / No (screenshot in `analytics/`)
+- **What counts as a signup:** someone creates a Gable account. On gable.fit, a visitor who is not signed in sees "Sign up to see your matches" after they search, and creating an account fires the Google Analytics event `account_created` (marked as a key event). Our own test accounts are excluded. The homepage waitlist email box still works; those emails are reported separately and do not count toward the bar.
+- **Where we read signups from:** Google Analytics, event `account_created` for visits with `utm_source = meta`, checked against new users in Supabase Authentication during the 7 days.
+- **Tracking check:** we clicked through our own ad link, searched, created a test account, and saw the visit and the `account_created` event arrive in Google Analytics Realtime. Yes / No (screenshot in `analytics/`)
 - **Expected clicks** (the platform's estimate): ___ (we assume about 166 at typical Meta prices; update from the ads dashboard)
 
 **Ad link:**
 `https://www.gable.fit/?utm_source=meta&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
 
 **The ad (must match the homepage):**
-- Primary text: "Looking for a sublet near Columbia? Tell Gable what you need and get real places, checked before you pay. Built by Columbia students. Be first in."
+- Primary text: "Looking for a sublet near Columbia? Tell Gable what you need and get real places, checked before you pay. Built by Columbia students. Create a free account to see them."
 - Headline: "Real sublets near Columbia"
 - Description: "Checked before you pay"
 - Button: Sign Up
