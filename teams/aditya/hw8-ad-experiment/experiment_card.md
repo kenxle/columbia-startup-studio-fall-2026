@@ -20,8 +20,8 @@ At least 10% of clicks from the people Reddit shows the ad to (it uses r/columbi
 ## 3. The one variable
 
 - **What we're testing:** the message: Gable as a sublet network for the Columbia community, with places posted by other students (the trust angle from our brand position and from what our interviewees told us about not knowing who is on the other end).
-- **What the ad shows:** one headline, one image and a Sign Up button. Reddit Max has no body text field, so the ad does not use the longer body text we drafted.
-- **Everything we hold fixed:** one landing page (the Gable homepage, https://www.gable.fit), one headline (entered three times so Reddit cannot rotate), one image, one audience setting, $100 total budget, 7 days, and the same flow: type a search, then sign up to see matches.
+- **What the ad shows:** three headlines, one image and a Sign Up button. Reddit Max requires three different headlines, so we wrote three versions of the same message (a sublet network for the Columbia community, with places posted by other students). Reddit may rotate between them, so we read the result as a test of that message, not of one exact sentence. Reddit Max has no body text field, so the ad does not use the longer body text we drafted.
+- **Everything we hold fixed:** one landing page (the Gable homepage, https://www.gable.fit), the same three headlines for the whole week, one image, one audience setting, $100 total budget, 7 days, and the same flow: type a search, then sign up to see matches.
 
 ## 4. Audience
 
@@ -45,7 +45,10 @@ At least 10% of clicks from the people Reddit shows the ad to (it uses r/columbi
 `https://www.gable.fit/?utm_source=reddit&utm_medium=paid&utm_campaign=aditya_adtest_nov2026`
 
 **The ad (the homepage says "real sublets near Columbia"):**
-- Headline: "Find a sublet through the Columbia community" (entered three times, the same each time)
+- Headlines (all three run for the whole week):
+  1. "Find a sublet through the Columbia community"
+  2. "Sublets near Columbia, posted by other students"
+  3. "Looking for a sublet near Columbia? Start here"
 - Button: Sign Up
 - Image: `ad_creative_1200x628.png`, a real screenshot of Gable (the search and its reply next to a real student listing), cropped to 1200 by 628. No stock photos.
 
