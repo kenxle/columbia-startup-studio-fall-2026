@@ -11,6 +11,8 @@
 
 **Grow:** Launched our first paid experiment, a $100 Meta ad, on Thu Nov 19. It's in the Housing ad category, targets NYC, runs 7 days and sends people to the homepage with UTM tags. We wrote the pass/fail bar before launch (`hw8-ad-experiment/experiment_card.md`). We also created a SettleWise Facebook Page, linked to our Instagram, with a tracked link to the site. We planned last week to add links to our Reddit posts, but we didn't post any. That's now part of this week's cold start plan.
 
+**Demand strategy:** We updated `demand_strategy.md` with a new section 0 for Nov 20–26. We moved from broad posting to three tracked channels (campus DMs, Reddit replies and the Meta ad), each with a bar for success, and added a weekly results log, because last week none of our posts could be traced to a signup. We also started publishing blog posts: before this, our site had a blog tab but no posts.
+
 **Analyze:**
 
 - We tested tracking end to end. A fresh Google account signed up through a UTM link, and every event showed up in Google Analytics Realtime and in Meta Events Manager.
