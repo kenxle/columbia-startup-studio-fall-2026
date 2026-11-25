@@ -1,4 +1,4 @@
-# SettleWise — Usability Testing Write-up (HW 8)
+# SettleWise — Usability Testing Synthesis (HW7)
 
 **Sessions:** 5 first-time users, Nov 5–6, 2026 · ~20–24 min each
 **Hosts / note-takers:** Maria (P1), Izum (P2, P3), Sami (P4, P5)
@@ -94,19 +94,73 @@ Post-session questions: when did you get it, most confusing part, what would mak
 
 ## 5. What we're changing and why
 
-| Change | Why (evidence) | Status |
-|---|---|---|
-| Remove URL paste; make the button the single, obvious add path | P5 used the URL and nothing saved; P4 and P2 couldn't find the button | **Done** |
-| Add "Add apartment" directly on the comparison screen | P4 reached the comparison with 0 apartments and had to backtrack | **Done** |
-| Default comparison on base rent shown immediately; priorities layered on after | P5 wanted results before setup; P2 and P3 expected results right after clicking | **Done** |
-| New tutorial with a short **video/GIF of the button on a StreetEasy listing** | P3 asked for video repeatedly; P1 and P4 didn't know where the bookmarks bar was | In progress |
-| Rewrite homepage headline: "Compare the apartments you've already found, ranked by what matters to you" | P2, P1, P5 misread the purpose | Next |
-| Break Edit Comparison Fields into steps (Non-negotiables → Priorities → Results) with a Next button and plain-language labels ("3 of 3 listings include this") | P1's magic wand; P1 and P5 misread the counts | Next |
-| Surface personal callouts (net effective rent, over-budget flags) at the top of results | These triggered both aha moments | Next |
-| Explore AI-generated recommendation ("Your best fit is X because...") and richer listing data (e.g. past-tenant reviews) | P4 showed no reaction to a plain table and saw no difference beyond price | Exploring |
-| Evaluate a browser extension as an alternative to the bookmarklet | P4 suggested it directly; the bookmark step blocked all 5 users | Exploring |
-| Add a profile/home page after signup | P5 got lost after signup | Backlog |
-| Longer term: reduce tab-switching (SettleWise on StreetEasy, or listings pulled in) | P3's biggest frustration; P5 wouldn't do 10 listings | Backlog |
+Most important first.
+
+> **What we observed:** 5 of 5 users struggled to add a listing. P5 used the URL and nothing saved; P4 and P2 couldn't find the button.
+>
+> **What we're changing:** Remove URL paste; make the button the single, obvious add path.
+>
+> **Why:** P5's pasted URLs gave no feedback, and the button was hard to find. **Status: Done**
+
+> **What we observed:** P4 reached the comparison with 0 apartments and had to backtrack.
+>
+> **What we're changing:** Add "Add apartment" directly on the comparison screen.
+>
+> **Why:** Users who land on the comparison first need a way to add listings from there. **Status: Done**
+
+> **What we observed:** P5 wanted results before setup; P2 and P3 expected results right after clicking Compare.
+>
+> **What we're changing:** Show a default comparison on base rent immediately; layer priorities on after.
+>
+> **Why:** Every page between Compare and the results added confusion. **Status: Done**
+
+> **What we observed:** P3 struggled with the button even after the tutorial and asked for a video repeatedly; P1 and P4 didn't know where the bookmarks bar was.
+>
+> **What we're changing:** New tutorial with a short **video/GIF of the button on a StreetEasy listing**.
+>
+> **Why:** The written tutorial didn't fix the add step. **Status: In progress**
+
+> **What we observed:** 3 of 5 (P2, P1, P5) misread the purpose: marketplace, saving tool, or bill splitter.
+>
+> **What we're changing:** Rewrite the homepage headline: "Compare the apartments you've already found, ranked by what matters to you."
+>
+> **Why:** The landing page never says "compare." **Status: Next**
+
+> **What we observed:** P1 and P5 misread the counts ("3 of 3", "0 out of 3"); P1 didn't know what non-negotiables meant.
+>
+> **What we're changing:** Break Edit Comparison Fields into steps (Non-negotiables → Priorities → Results) with a Next button and plain-language labels ("3 of 3 listings include this").
+>
+> **Why:** This was P1's magic-wand change. **Status: Next**
+
+> **What we observed:** Both aha moments came from personal signals: over-budget rent (P1) and net effective rent (P2).
+>
+> **What we're changing:** Surface personal callouts (net effective rent, over-budget flags) at the top of results.
+>
+> **Why:** These triggered both aha moments. **Status: Next**
+
+> **What we observed:** P4 showed no reaction to a plain table and saw no difference beyond price.
+>
+> **What we're changing:** Explore an AI-generated recommendation ("Your best fit is X because...") and richer listing data (e.g. past-tenant reviews).
+>
+> **Why:** A table alone may not deliver enough value. **Status: Exploring**
+
+> **What we observed:** The bookmark step blocked all 5 users; P4 suggested an extension directly.
+>
+> **What we're changing:** Evaluate a browser extension as an alternative to the bookmarklet.
+>
+> **Why:** It could remove the bookmark setup entirely. **Status: Exploring**
+
+> **What we observed:** P5 got lost after signup.
+>
+> **What we're changing:** Add a profile/home page after signup.
+>
+> **Why:** Users need a home base after signing in. **Status: Backlog**
+
+> **What we observed:** Switching tabs was P3's biggest frustration; P5 wouldn't do 10 listings.
+>
+> **What we're changing:** Longer term: reduce tab-switching (SettleWise on StreetEasy, or listings pulled in).
+>
+> **Why:** Effort per listing limits how many apartments users will add. **Status: Backlog**
 
 ## 6. Next round of testing
 
