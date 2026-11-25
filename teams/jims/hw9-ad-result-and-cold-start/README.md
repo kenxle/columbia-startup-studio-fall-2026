@@ -4,10 +4,10 @@
 
 | Part | Where |
 |---|---|
-| 1. Ad result | [`hw8/experiment_card.md`](../hw8/experiment_card.md), section 9 (status below) |
-| 2. Cold start plan | [`cold_start_plan.md`](cold_start_plan.md) |
+| 1. Ad result | [`hw8-ad-experiment/experiment_card.md`](../hw8-ad-experiment/experiment_card.md), section 9 (status below) |
+| 2. Cold start plan | [`cold-start-strategy.md`](cold-start-strategy.md) |
 | 3. Backlog, ranked | [`backlog.md`](backlog.md) |
-| 4. Demand strategy, updated | [`demand_strategy.md`](../teams/settlewise/hw6-demand-plan-and-analytics/demand_strategy.md), updated in place (new section 0 at the top) |
+| 4. Demand strategy, updated | [`demand_strategy.md`](../demand_strategy.md), updated in place (new section 0 at the top) |
 
 ## Part 1: ad result (status)
 

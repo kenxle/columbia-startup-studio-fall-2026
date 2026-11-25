@@ -9,7 +9,7 @@
 - **Meta Pixel:** Installed for ad reporting only. It mirrors the same events and sends no names, emails or page details.
 - **Security update:** Upgraded Next.js to 16.4.6.
 
-**Grow:** Launched our first paid experiment, a $100 Meta ad, on Thu Nov 19. It's in the Housing ad category, targets NYC, runs 7 days and sends people to the homepage with UTM tags. We wrote the pass/fail bar before launch (`hw8/experiment_card.md`). We also created a SettleWise Facebook Page, linked to our Instagram, with a tracked link to the site. We planned last week to add links to our Reddit posts, but we didn't post any. That's now part of this week's cold start plan.
+**Grow:** Launched our first paid experiment, a $100 Meta ad, on Thu Nov 19. It's in the Housing ad category, targets NYC, runs 7 days and sends people to the homepage with UTM tags. We wrote the pass/fail bar before launch (`hw8-ad-experiment/experiment_card.md`). We also created a SettleWise Facebook Page, linked to our Instagram, with a tracked link to the site. We planned last week to add links to our Reddit posts, but we didn't post any. That's now part of this week's cold start plan.
 
 **Analyze:**
 
@@ -19,13 +19,13 @@
 - The 3 `sign_up` events that week appear to be our own 2 test accounts.
 - `sign_up` isn't marked as a key event in Google Analytics yet, so the "Key events" column still reads 0.
 
-**Research:** We didn't run new research sessions. We wrote our HW9 cold start plan and backlog from the 5 usability sessions (Nov 5–6) and our GA data (see `hw9/`).
+**Research:** We didn't run new research sessions. We wrote our HW9 cold start plan and backlog from the 5 usability sessions (Nov 5–6) and our GA data (see `hw9-ad-result-and-cold-start/`).
 
 ## Planning: what we're doing next
 
 **Build:** Backlog #1: a 10–15 second looping video showing the Saving shortcut working on a real StreetEasy listing, plus a "Can't see your bookmarks bar?" tip. All 5 testers struggled to add a listing.
 
-**Grow:** Follow the cold start plan (`hw9/cold_start_plan.md`):
+**Grow:** Follow the cold start plan (`hw9-ad-result-and-cold-start/cold-start-strategy.md`):
 
 - 10 helpful comparison replies in r/NYCapartments, r/AskNYC and r/columbia
 - 25 personal messages to classmates moving for spring, our testers and friends of our interviewees

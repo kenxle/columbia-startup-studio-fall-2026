@@ -1,7 +1,7 @@
 # SettleWise: Backlog (HW 9, Part 3)
 
 **Ranked:** Friday, November 20, 2026
-**Inputs:** where our 5 usability testers got stuck (`hw8/user_testing_summary.md`), what we said we'd change in that write-up (section 5), the GA4 gaps in `hw8/growth-strategy.md`, our earlier leftovers list (`docs/MVP_Handoff_Leftover.md` in the product repo), and what's on `main` as of Nov 19.
+**Inputs:** where our 5 usability testers got stuck (`hw7-usability-testing/usability_synthesis.md`), what we said we'd change in that write-up (section 5), the GA4 gaps in `growth-strategy.md`, our earlier leftovers list (`docs/MVP_Handoff_Leftover.md` in the product repo), and what's on `main` as of Nov 19.
 
 **What "impact" means for us right now:** a new renter **reaches the comparison with 2+ of their own apartments, without help**. Only 2 of 5 testers reached the aha moment, only 6 of our 17 signups are active, and the class only counts a user who has done the core action. Anything that doesn't move that number, or help us see it, scores low on impact.
 

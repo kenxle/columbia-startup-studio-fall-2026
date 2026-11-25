@@ -10,8 +10,8 @@
 ## 0. This week: Friday Nov 20 to Thursday Nov 26 (updated for HW 9)
 
 **What changed since October 22:**
-- **17 signups, 6 active (Nov 20, `/api/metrics`), almost all from people we know and none from a tracked channel.** In GA4, 92% of users came in as Direct and no UTM traffic was recorded before the Meta ad started on Nov 19 (`hw8/growth-strategy.md`). Posting on social and in communities without links hasn't brought in users we can see.
-- **Our cold start type is "good product, no distribution"** (`hw9/cold_start_plan.md`). This week we stop broad posting and go one-to-one with **renters mid-search**, using one personal channel and one one-to-many channel, as Class 10 recommends.
+- **17 signups, 6 active (Nov 20, `/api/metrics`), almost all from people we know and none from a tracked channel.** In GA4, 92% of users came in as Direct and no UTM traffic was recorded before the Meta ad started on Nov 19 (`growth-strategy.md`). Posting on social and in communities without links hasn't brought in users we can see.
+- **Our cold start type is "good product, no distribution"** (`hw9-ad-result-and-cold-start/cold-start-strategy.md`). This week we stop broad posting and go one-to-one with **renters mid-search**, using one personal channel and one one-to-many channel, as Class 10 recommends.
 - **Measurement now works.** `signup_started`, `sign_up` and `comparison_viewed` are live in GA4 (Nov 16). An **activated** user is one who fired `comparison_viewed` (a comparison of 2+ of their own apartments).
 - **Domain:** `settlewise.group`.
 
@@ -25,7 +25,7 @@
 | **Volume** | 5 DMs a day for 5 days = **25 touches**. One follow-up after 3–5 days, then stop. | **10 replies** over the week, at most 2 a day, with no two replies saying the same thing | Fixed budget |
 | **Success bar (set before we start)** | 25 touches → 10 replies → 5 signups → **3 activated** | 10 replies → 15 sessions → 2 signups → **1 activated** | Pass bar on the experiment card |
 
-The **Shortlist Night** invite (`hw9/cold_start_plan.md`) goes out through channel A. RSVPs are tracked in the sign-up sheet, not here.
+The **Shortlist Night** invite (`hw9-ad-result-and-cold-start/cold-start-strategy.md`) goes out through channel A. RSVPs are tracked in the sign-up sheet, not here.
 
 ### First messages
 

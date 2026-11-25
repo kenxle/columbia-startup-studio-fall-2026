@@ -1,7 +1,7 @@
 # SettleWise: Cold Start Plan (HW 9, Part 2)
 
 **Week of:** Friday, November 20 to Thursday, November 26, 2026 (Thanksgiving week)
-**Inputs:** Class 10 cold start framework, HW8 usability tests (5 sessions, Nov 5–6), GA4 snapshot in `hw8/growth-strategy.md`, 17 signups and 6 active users as of Nov 20 (`/api/metrics`, team excluded), almost all people we know.
+**Inputs:** Class 10 cold start framework, HW8 usability tests (5 sessions, Nov 5–6), GA4 snapshot in `growth-strategy.md`, 17 signups and 6 active users as of Nov 20 (`/api/metrics`, team excluded), almost all people we know.
 
 ## 1. Cold start type: none (single-player), with a distribution and timing problem
 
