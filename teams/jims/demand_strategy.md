@@ -7,6 +7,64 @@
 
 > **Planning assumptions:** This plan covers the remaining Fall 2026 semester, with weekly Sunday checkpoints. The exact course end date and the blog article taxonomy on **class 6, slide 45** should be confirmed against the course materials. Article formats below are practical working categories, **not a verified transcription of slide 45**. All reach and conversion targets are estimates, not actuals. Replace `[TBD]` entries with live links after publishing; do not represent scheduled work as completed.
 
+## 0. This week: Friday Nov 20 to Thursday Nov 26 (updated for HW 9)
+
+**What changed since October 22:**
+- **17 signups, 6 active (Nov 20, `/api/metrics`), almost all from people we know and none from a tracked channel.** In GA4, 92% of users came in as Direct and no UTM traffic was recorded before the Meta ad started on Nov 19 (`growth-strategy.md`). Posting on social and in communities without links hasn't brought in users we can see.
+- **Our cold start type is "good product, no distribution"** (`hw9-ad-result-and-cold-start/cold-start-strategy.md`). This week we stop broad posting and go one-to-one with **renters mid-search**, using one personal channel and one one-to-many channel, as Class 10 recommends.
+- **Measurement now works.** `signup_started`, `sign_up` and `comparison_viewed` are live in GA4 (Nov 16). An **activated** user is one who fired `comparison_viewed` (a comparison of 2+ of their own apartments).
+- **Domain:** `settlewise.group`.
+
+### Channel cards
+
+| | **A. Campus DMs** (personal) | **B. Comparison replies on Reddit** (one-to-many) | **C. Meta ad** (paid) |
+|---|---|---|---|
+| **Owner this week** | Izum (each teammate DMs the people they know) | Izum | See the experiment card (Part 1). We don't touch it until the 7 days are up. |
+| **Where, and the rules** | Columbia classmates moving for spring, our 5 usability testers and one friend from each of our 5 interviewees. Personal messages only, never a list or group blast. We ask before posting in any group. | r/NYCapartments, r/AskNYC, r/columbia: posts where someone is choosing between 2–3 apartments. **Before the first reply, read each sidebar and write its self-promotion rule here:** r/NYCapartments: _not yet checked_, r/AskNYC: _not yet checked_, r/columbia: _not yet checked_. No link where links aren't allowed. | Meta, Special Ad Category: Housing |
+| **Landing page** | `https://settlewise.group/students-on-a-budget?utm_source=dm&utm_medium=personal&utm_campaign=hw9_coldstart&utm_content=campus` | `https://settlewise.group/compare-apartments?utm_source=reddit&utm_medium=community&utm_campaign=hw9_coldstart&utm_content=comparison_reply` | Per the experiment card |
+| **Volume** | 5 DMs a day for 5 days = **25 touches**. One follow-up after 3–5 days, then stop. | **10 replies** over the week, at most 2 a day, with no two replies saying the same thing | Fixed budget |
+| **Success bar (set before we start)** | 25 touches → 10 replies → 5 signups → **3 activated** | 10 replies → 15 sessions → 2 signups → **1 activated** | Pass bar on the experiment card |
+
+The **Shortlist Night** invite (`hw9-ad-result-and-cold-start/cold-start-strategy.md`) goes out through channel A. RSVPs are tracked in the sign-up sheet, not here.
+
+### First messages
+
+Every message has the four parts from Class 10: something specific about them, who we are, one small ask, and an easy out.
+
+**A. Campus DM (Instagram, WhatsApp or iMessage, to someone we know):**
+> Hey [name], you mentioned you're looking for a place for January. I'm building SettleWise with three classmates for our Columbia startup class. It puts the StreetEasy listings you've already found side by side and ranks them by what matters to you. Would you try it on the 2–3 places you're deciding between and tell me where it gets confusing? Takes about 5 minutes. No worries at all if not. [campus link]
+
+**A. Follow-up, once, 3–5 days later:**
+> No pressure on this. If you've already picked a place, congrats! And if you're still deciding, the offer stands. [campus link]
+
+**A. Asking an interviewee for a friend:**
+> Hi [name], thanks again for talking to us about your apartment search in October. We built a tool from what you and others told us. Do you know one person who's apartment hunting right now and might want help comparing their options? Happy for you to just forward this. [campus link]
+
+**B. Reddit reply (the comparison is written in the comment, so it helps without a click):**
+> I put your three side by side:
+> - **[Apt 1]:** $[rent], [net effective rent if there's a free month], [what the listing leaves out, e.g. no laundry info]
+> - **[Apt 2]:** ...
+> - **[Apt 3]:** ...
+>
+> Based on what you said matters ([their priorities]), [Apt X] comes out ahead, mainly because [reason]. Before signing, I'd ask the broker about [missing detail] and [fee].
+>
+> *Disclosure: I'm a Columbia student building a free tool that does this comparison (SettleWise). Happy to share it if that's useful, no worries if not.* [link only where the subreddit allows it]
+
+### Results log (fill in every Friday from GA4, by UTM source and campaign)
+
+| Week ending | Channel | Touches | Replies / sessions | Signups | Activated | What we learned |
+|---|---|---:|---:|---:|---:|---|
+| Nov 19 (Nov 13–19) | All channels | Not logged (outreach starts Nov 20) | 61 sessions | 3* | 1* | Tracking works end to end, but we can't yet see a single stranger sign up. *Likely our own 2 tracking-test signups on Nov 18; these events went live Nov 16.* |
+| Nov 26 | A. Campus DMs | | | | | |
+| Nov 26 | B. Reddit replies | | | | | |
+| Nov 26 | C. Meta ad | See the experiment card | | | | |
+
+We write actuals here, zeros included. We never estimate a number we can't see.
+
+---
+
+*The plan below is the original October 22 semester plan. Section 0 above replaces its channel priorities from Nov 20 onward. Sami's social posts continue as a secondary channel and carry UTM links from now on (`utm_source=instagram`, `tiktok`, `facebook` or `x`; `utm_campaign=hw9_coldstart`).*
+
 ## 1. Weekly responsibility for traffic
 
 Sami owns social content and distribution. Izum owns community engagement, the email program, and the first blog post. Both are responsible for bringing qualified visitors to SettleWise, not just creating content. **Sunday is the shared reporting and deliverable deadline each week.**
@@ -69,7 +127,7 @@ Our priority audience is students, recent graduates, first-time renters, and peo
 
 **Link requirements:** As soon as a post is published, replace `[TBD]` with its public permalink. When available, add platform-specific UTM links to the website destination, for example:
 
-`https://[YOUR_DOMAIN]/[LANDING_PAGE]?utm_source=instagram&utm_medium=social&utm_campaign=fall2026_demand&utm_content=20261025_painpoint`
+`https://settlewise.group/[LANDING_PAGE]?utm_source=instagram&utm_medium=social&utm_campaign=fall2026_demand&utm_content=20261025_painpoint`
 
 Use lowercase UTM values consistently. Use `utm_source=tiktok`, `facebook`, `x`, or `reddit` when applicable. Never invent live post URLs.
 
@@ -167,4 +225,4 @@ Use lowercase UTM values consistently. Use `utm_source=tiktok`, `facebook`, `x`,
 
 - [Course class 6 slides (see slide 45 for required article types)](https://github.com/kenxle/columbia-startup-studio-fall-2026/blob/main/classes/20261016_c6w6_fri_build-kickoff/class-6-slides.pdf)
 
-_Last revised: October 22, 2026. Planned links and assumptions should be updated every Sunday._
+_Last revised: November 20, 2026 (section 0 added for HW 9). Original plan: October 22, 2026._
